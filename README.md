@@ -18,7 +18,7 @@ alphabet shifted cyclically to the left compared to the previous alphabet, corre
 
 
 ## ALGORITHM:
-
+~~~
 STEP-1: Arrange the alphabets in row and column of a 26*26 matrix.
 STEP-2: Circulate the alphabets in each row to position left such that the first letter is attached to last.
 STEP-3: Repeat this process for all 26 rows and construct the final key matrix.
@@ -28,7 +28,7 @@ STEP-6: Pick the first letter of the plain text and that of the keyword as the r
 STEP-7: The junction character where these two meet forms the cipher character.
 STEP-8: Repeat the above steps to generate the entire cipher text.
 
-
+~~~
 ## PROGRAM
 ## Developed By : VIMALRAJ B
 ## Register Number : 212224230304
